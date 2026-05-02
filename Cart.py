@@ -1,3 +1,13 @@
+class Product():
+    def __init__(self,name,price,quantity):
+        self.name=name
+        self.price=price
+        self.quantity=quantity
+        
+    def get_info(self):
+      return f"The product name is {self.name} its price is {self.price} and total quantity is {self.quantity}"
+
+
 class Cart():
     def __init__(self):
         self.products=[]
