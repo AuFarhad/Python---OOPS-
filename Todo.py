@@ -1,5 +1,4 @@
 class Todo():
-    Name="Farhads Todo list"
     def __init__(self,title,time,description):
         self.title=title
         self.time=time
